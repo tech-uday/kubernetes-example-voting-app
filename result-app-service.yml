@@ -6,8 +6,8 @@ metadata:
     name: result-app-service
     app: demo-voting-app
 spec:
+  type: LoadBalancer         # if not mentioned by default it will take ClusterIP
   ports:
-      type: LoadBalancer         # if not mentioned by default it will take ClusterIP
     - port: 80
       targetPort: 80
   selector:
