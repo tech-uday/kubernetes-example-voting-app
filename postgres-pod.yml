@@ -10,4 +10,4 @@ spec:
     - name: postgres
       image: postgres:9.4
       ports:
-        - ContainerPorts: 5432
+        - ContainerPort: 5432
