@@ -10,4 +10,4 @@ spec:
     - name: redis
       image: redis
       ports:
-        - ContainerPorts: 6379
+        - ContainerPort: 6379
